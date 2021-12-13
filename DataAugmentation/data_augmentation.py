@@ -19,6 +19,9 @@ import matplotlib.pyplot as plt
 import os
 from PIL import Image
 
+#Problem -- could not run in colab with large data sets. It was not letting me upload the dataset
+# for happy or sad, and I could not figure out what was going run when running in local
+
 '''
 IGNORE THIS, I WAS TESTING A FEW METHODS AND NEEDED TO EMPTY A FOLDER 
 for folder, subfolders, file_list in os.walk("flipped_fear"): 
